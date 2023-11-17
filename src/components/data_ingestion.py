@@ -3,8 +3,8 @@ import sys
 import pandas as pd
 
 #Python Relative Imports
-# from pathlib import Path
-# sys.path.append(str(Path(__file__).parent.parent)) ---> does the same thing as sys.path.append('src')
+#from pathlib import Path
+#sys.path.append(str(Path(__file__).parent.parent)) ---> does the same thing as sys.path.append('src')
 sys.path.append('src')
 from exception import CustomException
 from logger import logging

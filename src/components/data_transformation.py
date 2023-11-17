@@ -8,8 +8,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 #Python Relative Imports
-# from pathlib import Path
-# sys.path.append(str(Path(__file__).parent.parent)) ---> does the same thing as sys.path.append('src')
+#from pathlib import Path
+#sys.path.append(str(Path(__file__).parent.parent)) ---> does the same thing as sys.path.append('src')
 sys.path.append('src')
 from exception import CustomException
 from logger import logging
@@ -20,7 +20,7 @@ from dataclasses import dataclass
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path = os.path.join('artifacts', 'proprocessor.pkl')
+    preprocessor_obj_file_path = os.path.join('artifacts', 'preprocessor.pkl')
 
 class DataTransformation:
     def __init__(self):
